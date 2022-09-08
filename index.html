@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/113d3f1a8c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo"><i class="fa-brands fa-sitrox"></i></a>
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <div id="intro">
+        <div class="intro-text">
+            <h1>Hi, I'm<br><span>Shaik Sirajuddin</span></h1>
+            <p>Java Backend Developer</p>
+        </div>
+        <img src="Images/Shaik_Sirajuddin.png" alt="">
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        A passionate and aspiring full-stack developer, capable of designing, building and
+                        maintaining Java-based web applications by writing well-designed and efficient code. Cloned
+                        various projects individually and collaboratively, and also practiced 1000+ hours of coding and
+                        DSA. Looking forward to join a challenging work environment to contribute my skills to the
+                        growth of myself and the company. Willing to learn new skills and contribute to the organization
+                        at all stages of the SDLC.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links  active-link" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Full Stack Web Development Training at Masai School</li>
+                            <li><span>2020</span><br>B.Tech from K.O.R.M. College of Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-2022</span><br>Systems Engineer at Caravel Info Systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <img src="Images/Tech_Stack/Java.png" alt="Java">
+                </div>
+                <div>
+                    <img src="Images/Tech_Stack/MySQL.png" alt="MySQL">
+                </div>
+                <div>
+                    <img src="Images/Tech_Stack/Spring.png" alt="Spring Boot">
+                    <h3>Spring Boot</h3>
+                </div>
+                <div>
+                    <img src="Images/Tech_Stack/Hibernate.gif" alt="Hibernate">
+                </div>
+                <div>
+                    <img src="Images/Tech_Stack/JS.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div>
+                    <img src="Images/Tech_Stack/HTML.png" alt="HTML">
+                </div>
+                <div>
+                    <img src="Images/Tech_Stack/CSS.png" alt="CSS">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div class="project">
+                    <img src="Images/Projects/J.Crew.png" alt="J.Crew">
+                    <div class="layer">
+                        <h3>J.Crew Clone</h3>
+                        <p>
+                            This is a collaborative sample application developed with a team of 5, which demonstrates an
+                            e-commerce website for buying clothes. User can explore the site without login.
+                            <br>
+                            Users can select items and add them to their shopping cart. Also can decrease or increase
+                            the quantity from the cart
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/vin9012d/Project-unit-3" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://storied-platypus-db74f4.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Images/Projects/Youtube_Mini_App.png" alt="Youtube Mini App">
+                    <div class="layer">
+                        <h3>Youtube Mini App Clone</h3>
+                        <p>
+                            This is a sample application that displays a list of 50 popular videos. User does not need
+                            to login or sign up.
+                            <br>
+                            Users can search for videos, it displays a list of 20 videos based on
+                            the user's search. Users can watch videos without any ADS interruption.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Sirajuddin135/YoutubeMiniApp" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://sensational-madeleine-f66f53.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Images/Projects/Weather_App.png" alt="Weather App">
+                    <div class="layer">
+                        <h3>Weather App Clone</h3>
+                        <p>
+                            This is a sample application that shows the weather of any city along with the weather
+                            forecast for the next 7 days.
+                            <br>
+                            By default it shows live location weather with GPS. Users do not need to login or sign up.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Sirajuddin135/WeatherApp" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://storied-malabi-9dc98c.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Images/Projects/Sugar_Cosmetics.png" alt="Sugar Cosmetics">
+                    <div class="layer">
+                        <h3>Sugar Cosmetics Clone</h3>
+                        <p>
+                            This is a sample collaborative application developed with a team of 5, which demonstrates an
+                            e-commerce website for buying cosmetics.User can explore the site without login.
+                            <br>
+                            Users can select items and add them to their shopping cart. Also can decrease or increase
+                            the quantity from the cart.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Sirajuddin135/sugarCosmetics" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://magnificent-cajeta-cee871.netlify.app" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:shaiksirajuddin135@gmail.com"><i class="fa-solid fa-envelope"></i>
+                            shaiksirajuddin135@gmail.com</a></p>
+                    <p><a href="tel:+91 8523096699"><i class="fa-solid fa-phone"></i> +91 8523096699</a></p>
+                    <p><a href="https://goo.gl/maps/g2doQnNVpFaJbi6Q9" target="_blank"><i
+                                class="fa-solid fa-location-dot"></i> Kadapa -
+                            516001, AP.</a></p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Sirajuddin135" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shaik-sirajuddin-aa21551b3/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.hackerrank.com/shaiksirajuddin" target="_blank"><i
+                                class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <a href="Shaik_Sirajuddin_Resume.pdf" download class="btn btn1">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Shaik Sirajuddin.</p>
+        </div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
