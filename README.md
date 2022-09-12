@@ -21,20 +21,20 @@ My Projects
 ### J.Crew Clone
 ![J.Crew](Images/Projects/J.Crew.png)
 
-[<img src="Images/Social_Media/github.svg" alt="github" width="50" height="50">](https://github.com/vin9012d/Project-unit-3)
-[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://storied-platypus-db74f4.netlify.app/)
+[<img src="Images/Social_Media/github.svg" alt="github" width="50" height="50">](https://github.com/vin9012d/Jcrew_clone)
+[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://jcrew-project-clone.netlify.app/)
 
 ### Youtube Mini App Clone
 ![Youtube Mini App](Images/Projects/Youtube_Mini_App.png)
 
 [<img src="Images/Social_Media/github.svg" alt="github" width="50" height="50" style="color:white">](https://github.com/Sirajuddin135/YoutubeMiniApp)
-[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://sensational-madeleine-f66f53.netlify.app/)
+[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://youtube-project-clone.netlify.app/)
 
 ### Weather App Clone
 ![Weather App](Images/Projects/Weather_App.png)
 
 [<img src="Images/Social_Media/github.svg" alt="github" width="50" height="50" style="color:white">](https://github.com/Sirajuddin135/WeatherApp)
-[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://storied-malabi-9dc98c.netlify.app/)
+[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://weather-information-project-clone.netlify.app/)
 
 ### Sugar Cosmetics Clone
 ![Sugar Cosmetics](Images/Projects/Sugar_Cosmetics.png)
