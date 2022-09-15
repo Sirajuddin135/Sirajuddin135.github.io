@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #0f0f2f;
+    background-color: #678056;
     color: #fff;
 }
 
@@ -22,7 +22,7 @@ body {
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: #000 !important;
+    background-color: #f16775 !important;
     z-index: 1;
 }
 
@@ -33,7 +33,7 @@ body {
 .logo {
     width: 140px;
     font-size: 50px;
-    color: royalblue;
+    color: #fff;
 }
 
 nav {
@@ -59,7 +59,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: blue;
+    background: #678056;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -79,9 +79,9 @@ nav ul li a:hover::after {
     font-size: 60px;
 }
 
-.intro-text h1 span {
-    color: royalblue;
-}
+/* .intro-text h1 span {
+    color: #fff;
+} */
 
 #intro {
     display: flex;
@@ -97,7 +97,6 @@ nav ul li a:hover::after {
 
 #about {
     padding: 80px 0;
-    color: #ababab;
     font-size: 20px;
 }
 
@@ -120,6 +119,7 @@ nav ul li a:hover::after {
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
+    color: rgb(241, 197, 115);
 }
 
 .tab-links {
@@ -134,7 +134,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: blue;
+    background: #f16775;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -151,7 +151,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-    color: wheat;
+    color: rgb(241, 197, 115);
     font-size: 18px;
 }
 
@@ -227,7 +227,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), blue);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #de354c);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -262,7 +262,7 @@ nav ul li a:hover::after {
 }
 
 .project-links>a:last-child {
-    color: blue;
+    color: #61b752;
 }
 
 .project:hover img {
@@ -275,6 +275,7 @@ nav ul li a:hover::after {
 
 #contact {
     padding: 80px 0 auto;
+    background: #703f39;
 }
 
 .contact-left {
@@ -287,12 +288,12 @@ nav ul li a:hover::after {
 
 .contact-left p {
     margin-top: 30px;
-    color: #ababab;
+    color: #fff;
 }
 
 .contact-left p i,
 .contact-left p a {
-    color: #ababab;
+    color: #fff;
     text-decoration: none;
     margin-right: 15px;
     font-size: 20px;
@@ -306,7 +307,7 @@ nav ul li a:hover::after {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #fff;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -320,8 +321,8 @@ nav ul li a:hover::after {
     margin: 50px auto;
     width: fit-content;
     color: #fff;
-    background: blue;
-    border: 1px solid blue;
+    background: #61b752;
+    border: 1px solid #61b752;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -396,7 +397,7 @@ nav .fa-solid {
     }
 
     nav ul {
-        background: blue;
+        background: #f16775;
         position: fixed;
         top: 0;
         right: -200px;
