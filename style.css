@@ -199,25 +199,29 @@ nav ul li a:hover::after {
     margin-bottom: 10px;
 }
 
-#projects {
+#projects,
+#github-stats {
     padding: 70px 0;
 }
 
-.projects-list {
+.projects-list,
+.github-stats-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin-top: 50px;
     grid-gap: 40px;
 }
 
-.project {
+.project,
+.github-stat {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
 
-.project img {
+.project img,
+.github-stat img {
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -265,7 +269,8 @@ nav ul li a:hover::after {
     color: #61b752;
 }
 
-.project:hover img {
+.project:hover img,
+.github-stat:hover img {
     transform: scale(1.1);
 }
 
@@ -437,7 +442,8 @@ nav .fa-solid {
         margin-right: 20px;
     }
 
-    .project {
+    .project,
+    .github-stat {
         width: 300px;
         font-size: 8px;
     }
