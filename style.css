@@ -79,10 +79,6 @@ nav ul li a:hover::after {
     font-size: 60px;
 }
 
-/* .intro-text h1 span {
-    color: #fff;
-} */
-
 #intro {
     display: flex;
     align-items: center;
@@ -93,6 +89,11 @@ nav ul li a:hover::after {
 #intro img {
     width: 35%;
     border-radius: 50%;
+}
+
+#intro .btn1 {
+    background-color: #f16775;
+    border: 1px solid #f16775;
 }
 
 #about {
@@ -220,35 +221,37 @@ nav ul li a:hover::after {
     cursor: pointer;
 }
 
-.project img,
+.project img {
+    width: 55%;
+    border-radius: 10px;
+}
+
 .github-stat img {
     width: 100%;
     border-radius: 10px;
     display: block;
-    transition: transform 0.5s;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #f16775;
 }
 
 .layer {
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #de354c);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    width: 42%;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    transition: height 0.5s;
+    margin-right: 15px;
 }
 
 .layer h3 {
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.project-links {
+    text-align: center;
 }
 
 .project-links a {
@@ -267,15 +270,6 @@ nav ul li a:hover::after {
 
 .project-links>a:last-child {
     color: #61b752;
-}
-
-.project:hover img,
-.github-stat:hover img {
-    transform: scale(1.1);
-}
-
-.project:hover .layer {
-    height: 100%;
 }
 
 #contact {
@@ -370,30 +364,42 @@ nav .fa-solid {
     display: none;
 }
 
+#msg {
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
+}
+
+
 @media only screen and (max-width:600px) {
     #header {
-        height: 10vh;
+        height: 7vh;
     }
 
     .logo {
         font-size: 30px;
+        color: black;
+    }
+
+    #bars {
+        width: 30px;
     }
 
     #intro {
         display: flex;
-        margin: -5% auto;
+        margin: 15px auto auto;
     }
 
     .intro-text {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .intro-text h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #intro img {
-        margin-top: 40px;
+        margin-top: -40px;
     }
 
     nav .fa-solid {
@@ -405,8 +411,8 @@ nav .fa-solid {
         background: #f16775;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -150px;
+        width: 150px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -426,7 +432,7 @@ nav .fa-solid {
     }
 
     .sub-title {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .about-col-1 {
@@ -434,22 +440,38 @@ nav .fa-solid {
     }
 
     .about-col-1 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .tab-links {
-        font-size: 16px;
+        font-size: 15px;
         margin-right: 20px;
     }
 
     .project,
     .github-stat {
         width: 300px;
-        font-size: 8px;
+        height: max-content;
+        font-size: 16px;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project>img,
+    .layer {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .layer {
+        padding: 10px;
     }
 
     .project-links a {
-        font-size: 15px;
+        font-size: 20px;
         padding: 5px 10px;
         line-height: 50px;
     }
@@ -460,12 +482,144 @@ nav .fa-solid {
     }
 
     .copyright {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
-#msg {
-    color: #61b752;
-    margin-top: -20px;
-    display: block;
+@media only screen and (min-width:700px) and (max-width:900px) {
+    #header {
+        height: 9vh;
+    }
+
+    .logo {
+        font-size: 60px;
+        color: black;
+    }
+
+    #bars {
+        width: 60px;
+    }
+
+    #intro {
+        display: flex;
+        margin: 20px auto auto;
+    }
+
+    .intro-text {
+        font-size: 35px;
+    }
+
+    .intro-text h1 {
+        font-size: 55px;
+    }
+
+    #intro img {
+        margin-top: -40px;
+    }
+
+    nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #f16775;
+        position: fixed;
+        top: 0;
+        right: -270px;
+        width: 270px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        font-size: 50px;
+    }
+
+    nav ul li a {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        font-size: 60px;
+    }
+
+    .about-col-1 {
+        flex-basis: 100%;
+    }
+
+    .about-col-1 {
+        font-size: 30px;
+    }
+
+    .tab-links {
+        font-size: 35px;
+        margin-right: 20px;
+    }
+
+    .tab-contents ul li span {
+        font-size: 30px;
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        font-size: 25px;
+    }
+
+    .project,
+    .github-stat {
+        width: auto;
+        height: max-content;
+        font-size: 25px;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project>img,
+    .layer {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .layer {
+        padding: 10px;
+    }
+
+    .project-links a {
+        font-size: 40px;
+        padding: 5px 15px;
+        line-height: 90px;
+    }
+
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+
+    .contact-left p i,
+    .contact-left p a,
+    form input,
+    form textarea,
+    form .btn1,
+    .copyright {
+        font-size: 35px;
+    }
+
+    .social-icons a {
+        font-size: 50px;
+    }
 }

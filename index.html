@@ -19,13 +19,17 @@
             <nav>
                 <a href="index.html" class="logo"><i class="fa-brands fa-sitrox"></i></a>
                 <ul id="sidemenu">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+                    <li><a href="#about" onclick="closeMenu()">About</a></li>
+                    <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+                    <li><a href="Shaik-Sirajuddin-Resume.pdf" download target="_blank"
+                            onclick="window.open(`https://drive.google.com/file/d/1Z7hxrJsA_y8YvvGw0VvcmN8liD_zSKou/view?usp=sharing`), closeMenu()">Resume</a>
+                    </li>
                     <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                <img id="bars" src="Images/bars-solid.svg" alt="" onclick="openMenu()">
             </nav>
         </div>
     </div>
@@ -34,6 +38,9 @@
         <div class="intro-text">
             <h1>Hi, I'm<br><span>Shaik Sirajuddin</span></h1>
             <p>Java Backend Developer</p>
+            <a href="Shaik-Sirajuddin-Resume.pdf" download target="_blank"
+                onclick="window.open(`https://drive.google.com/file/d/1Z7hxrJsA_y8YvvGw0VvcmN8liD_zSKou/view?usp=sharing`)"
+                class="btn btn1">Resume</a>
         </div>
         <img src="Images/Shaik_Sirajuddin.png" alt="">
     </div>
@@ -42,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <h1 class="sub-title">About Me</h1>
+                    <h1 class="sub-title">About</h1>
                     <p>
                         A passionate and aspiring full-stack developer, capable of designing, building and
                         maintaining Java-based web applications by writing well-designed and efficient code. Cloned
@@ -116,6 +123,10 @@
                     <img src="Images/Tech_Stack/Github.png" alt="Github">
                     <h3>Github</h3>
                 </div>
+                <div>
+                    <img src="Images/Tech_Stack/VSCode.png" alt="VS Code">
+                    <h3>VS Code</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -151,7 +162,7 @@
                         <p>
                             This is a sample application that displays a list of 50 popular videos. User does not need
                             to login or sign up. Users can search for videos, it displays a list of 20 videos based on
-                            the user's search. Users can watch videos without any ADS interruption.
+                            the user's search. Users can watch videos without any ads interruption.
                             <br>
                             <b>Tech Stack: </b> HTML | CSS | JS
                         </p>
@@ -235,8 +246,7 @@
                             shaiksirajuddin135@gmail.com</a></p>
                     <p><a href="tel:+91 8523096699"><i class="fa-solid fa-phone"></i> +91 8523096699</a></p>
                     <p><a href="https://goo.gl/maps/g2doQnNVpFaJbi6Q9" target="_blank"><i
-                                class="fa-solid fa-location-dot"></i> Kadapa -
-                            516001, AP.</a></p>
+                                class="fa-solid fa-location-dot"></i> Kadapa, AP</a></p>
                     <div class="social-icons">
                         <a href="https://github.com/Sirajuddin135" target="_blank"><i
                                 class="fa-brands fa-github"></i></a>
@@ -245,7 +255,6 @@
                         <a href="https://www.hackerrank.com/fw18_0110" target="_blank"><i
                                 class="fa-brands fa-hackerrank"></i></a>
                     </div>
-                    <a href="Shaik_Sirajuddin_Resume.pdf" download class="btn btn1">Download Resume</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
