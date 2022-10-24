@@ -406,8 +406,8 @@ form .btn1 {
         margin-top: -40px;
     }
 
-    nav img {
-        display: inline;
+    #bars {
+        display: inline-block;
         width: 30px;
     }
 
@@ -505,8 +505,8 @@ form .btn1 {
         color: black;
     }
 
-    nav img {
-        display: inline;
+    #bars {
+        display: inline-block;
         width: 60px;
     }
 
