@@ -70,6 +70,10 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+nav .fa-solid {
+    display: none;
+}
+
 .intro-text {
     font-size: 30px;
     text-align: center;
@@ -77,6 +81,10 @@ nav ul li a:hover::after {
 
 .intro-text h1 {
     font-size: 60px;
+}
+
+nav img {
+    display: none;
 }
 
 #intro {
@@ -226,12 +234,6 @@ nav ul li a:hover::after {
     border-radius: 10px;
 }
 
-.github-stat img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-}
-
 .project {
     display: flex;
     justify-content: space-between;
@@ -246,8 +248,13 @@ nav ul li a:hover::after {
 }
 
 .layer h3 {
-    font-weight: 700;
+    font-size: x-large;
     margin-bottom: 10px;
+    color: black;
+}
+
+.layer p b {
+    color: black;
 }
 
 .project-links {
@@ -272,6 +279,12 @@ nav ul li a:hover::after {
     color: #61b752;
 }
 
+.github-stat img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
 #contact {
     padding: 80px 0 auto;
     background: #703f39;
@@ -279,10 +292,6 @@ nav ul li a:hover::after {
 
 .contact-left {
     flex-basis: 35%;
-}
-
-.contact-right {
-    flex-basis: 60%;
 }
 
 .contact-left p {
@@ -327,6 +336,10 @@ nav ul li a:hover::after {
     text-decoration: none;
 }
 
+.contact-right {
+    flex-basis: 60%;
+}
+
 .contact-right form {
     width: 100%;
 }
@@ -360,16 +373,11 @@ form .btn1 {
     margin-top: 20px;
 }
 
-nav .fa-solid {
-    display: none;
-}
-
 #msg {
     color: #61b752;
     margin-top: -20px;
     display: block;
 }
-
 
 @media only screen and (max-width:600px) {
     #header {
@@ -379,10 +387,6 @@ nav .fa-solid {
     .logo {
         font-size: 30px;
         color: black;
-    }
-
-    #bars {
-        width: 30px;
     }
 
     #intro {
@@ -400,6 +404,11 @@ nav .fa-solid {
 
     #intro img {
         margin-top: -40px;
+    }
+
+    nav img {
+        display: inline;
+        width: 30px;
     }
 
     nav .fa-solid {
@@ -448,15 +457,15 @@ nav .fa-solid {
         margin-right: 20px;
     }
 
+    .project {
+        display: block;
+    }
+
     .project,
     .github-stat {
         width: 300px;
         height: max-content;
         font-size: 16px;
-    }
-
-    .project {
-        display: block;
     }
 
     .project>img,
@@ -496,7 +505,8 @@ nav .fa-solid {
         color: black;
     }
 
-    #bars {
+    nav img {
+        display: inline;
         width: 60px;
     }
 
@@ -577,15 +587,15 @@ nav .fa-solid {
         font-size: 25px;
     }
 
+    .project {
+        display: block;
+    }
+
     .project,
     .github-stat {
         width: auto;
         height: max-content;
         font-size: 25px;
-    }
-
-    .project {
-        display: block;
     }
 
     .project>img,
