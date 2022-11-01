@@ -122,7 +122,6 @@ nav .fa-solid {
 .sub-title {
     font-size: 60px;
     font-weight: 700;
-    color: #fff;
 }
 
 .tab-titles {
@@ -226,7 +225,6 @@ nav .fa-solid {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .project img {
