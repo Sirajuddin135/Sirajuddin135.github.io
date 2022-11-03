@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/113d3f1a8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <title>Portfolio</title>
 </head>
 
@@ -134,7 +135,7 @@
 
     <div id="projects">
         <div class="container">
-            <h1 class="sub-title">My Projects</h1>
+            <h1 class="sub-title">Projects</h1>
             <div class="projects-list">
                 <div class="project">
                     <img src="Images/Projects/J.Crew.png" alt="J.Crew">
@@ -220,7 +221,9 @@
 
     <div id="github-stats">
         <div class="container">
-            <h1 class="sub-title">My GitHub Stats</h1>
+            <h1 class="sub-title">GitHub Stats</h1>
+            <div class="calendar">
+            </div>
             <div class="github-stats-list">
                 <div class="github-stat">
                     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sirajuddin135&theme=indian-flag"
@@ -242,7 +245,7 @@
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
+                    <h1 class="sub-title">Contact</h1>
                     <p><a href="mailto:shaiksirajuddin135@gmail.com"><i class="fa-solid fa-envelope"></i>
                             shaiksirajuddin135@gmail.com</a></p>
                     <p><a href="tel:+91 8523096699"><i class="fa-solid fa-phone"></i> +91 8523096699</a></p>
@@ -275,5 +278,11 @@
 </body>
 
 <script src="main.js"></script>
+
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<script>
+    GitHubCalendar(".calendar", "Sirajuddin135", { responsive: true, tooltips: true });
+</script>
 
 </html>
