@@ -22,7 +22,7 @@ My Projects
 ![J.Crew](Images/Projects/J.Crew.png)
 
 [<img src="Images/Social_Media/github.svg" alt="github" width="50" height="50">](https://github.com/vin9012d/Jcrew_clone)
-[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://jcrew-project-clone.netlify.app/)
+[<img src=Images/Social_Media/arrow-up-right-from-square-solid.svg alt="link" width="50" height="50" style="color:white">](https://jcrew-project.netlify.app/)
 
 ### Youtube Mini App Clone
 ![Youtube Mini App](Images/Projects/Youtube_Mini_App.png)
