@@ -5,7 +5,7 @@
 
 # Hi, I'm  
 # Shaik Sirajuddin
-## Java Backend Developer
+## Full Stack Developer
 
 About Me
 ========
