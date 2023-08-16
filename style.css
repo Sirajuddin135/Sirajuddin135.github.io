@@ -10,8 +10,7 @@ html {
 }
 
 body {
-    background-color: #678056;
-    color: #fff;
+    background-color: #a3d2ca;
 }
 
 #header {
@@ -22,7 +21,7 @@ body {
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: #f16775 !important;
+    background-color: #678056 !important;
     z-index: 1;
 }
 
@@ -33,7 +32,7 @@ body {
 .logo {
     width: 140px;
     font-size: 50px;
-    color: #fff;
+    color: #000;
 }
 
 nav {
@@ -49,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 25px;
     position: relative;
@@ -59,7 +58,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #678056;
+    background: #000;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -100,8 +99,8 @@ nav .fa-solid {
 }
 
 #intro .btn1 {
-    background-color: #f16775;
-    border: 1px solid #f16775;
+    background-color: #3399ff;
+    border: 1px solid #99ffff;
 }
 
 #about {
@@ -127,7 +126,7 @@ nav .fa-solid {
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
-    color: rgb(241, 197, 115);
+    color: #f16775;
 }
 
 .tab-links {
@@ -159,7 +158,7 @@ nav .fa-solid {
 }
 
 .tab-contents ul li span {
-    color: rgb(241, 197, 115);
+    color: #f16775;
     font-size: 18px;
 }
 
@@ -285,7 +284,7 @@ nav .fa-solid {
 
 #contact {
     padding: 80px 0 auto;
-    background: #703f39;
+    background: #f16775;
 }
 
 .contact-left {
@@ -294,12 +293,12 @@ nav .fa-solid {
 
 .contact-left p {
     margin-top: 30px;
-    color: #fff;
+    color: #000;
 }
 
 .contact-left p i,
 .contact-left p a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     margin-right: 15px;
     font-size: 20px;
@@ -313,7 +312,7 @@ nav .fa-solid {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #fff;
+    color: #000;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -327,8 +326,8 @@ nav .fa-solid {
     margin: 50px auto;
     width: fit-content;
     color: #fff;
-    background: #61b752;
-    border: 1px solid #61b752;
+    background: #3399ff;
+    border: 1px solid #3399ff;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
